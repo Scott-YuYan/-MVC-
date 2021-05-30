@@ -1,0 +1,35 @@
+.app2 {
+    border: 1px solid yellow;
+}
+
+.app2>.tab-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.app2>.tab-content {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.app2>.tab-content>li {
+    width: 50%;
+}
+
+.app2>.tab-bar>li {
+    width: 50%;
+    text-align: center;
+}
+
+.app2>.tab-content>li {
+    display: none;
+}
+
+.app2>.tab-content>li.active {
+    display: block;
+}
+
+.app2>.tab-bar>li.selected {
+    background-color: rgb(173, 164, 164);
+}
